@@ -23,9 +23,26 @@ import { IndexComponent } from "./pages/index/index.component";
 import { ProfilepageComponent } from "./pages/examples/profilepage/profilepage.component";
 import { RegisterpageComponent } from "./pages/examples/registerpage/registerpage.component";
 import { LandingpageComponent } from "./pages/examples/landingpage/landingpage.component";
+import { HomeComponent } from './Components/home/home.component';
+import { NavbarComponent } from './Components/navbar/navbar.component';
+import { IntroductionComponent } from './Components/introduction/introduction.component';
+import { ProjectsComponent } from './Components/projects/projects.component';
+import { FooterComponent } from './Components/footer/footer.component';
+import { AboutMeComponent } from './Components/about-me/about-me.component';
+import { MyExperienceComponent } from './Components/my-experience/my-experience.component';
+import { MyServicesComponent } from './Components/my-services/my-services.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    NavbarComponent,
+    IntroductionComponent,
+    ProjectsComponent,
+    FooterComponent,
+    AboutMeComponent,
+    MyExperienceComponent,
+    MyServicesComponent
     // IndexComponent,
     // ProfilepageComponent,
     // RegisterpageComponent,
@@ -37,11 +54,12 @@ import { LandingpageComponent } from "./pages/examples/landingpage/landingpage.c
     HttpClientModule,
     RouterModule,
     AppRoutingModule,
-    // BsDropdownModule.forRoot(),
-    // ProgressbarModule.forRoot(),
-    // TooltipModule.forRoot(),
-    // CollapseModule.forRoot(),
-    // TabsModule.forRoot(),
+    
+     BsDropdownModule.forRoot(),
+     ProgressbarModule.forRoot(),
+     TooltipModule.forRoot(),
+     CollapseModule.forRoot(),
+    TabsModule.forRoot(),
     PagesModule
     // PaginationModule.forRoot(),
     // AlertModule.forRoot(),
