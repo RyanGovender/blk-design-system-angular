@@ -1,0 +1,90 @@
+
+@media screen and (max-width: 990px) {
+    .display-row{
+        margin: 5% 5% 0% 0%;
+    }
+
+    img{
+        max-width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .terminal-font{
+        font-size: small;
+    }
+}
+
+.about-me {
+    background-color: #1f2251;
+    border-radius: 20px 20px 20px 20px;
+}
+
+p{
+font-size: small;
+}
+
+h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+h6{
+    text-align: center;
+}
+
+img.filter-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+}
+span{
+    font-size: 1vw!important;
+}
+
+.display-row{
+    padding: 5% 0% 5% 5%;
+}
+
+.terminal-heading{
+    background: linear-gradient(360deg, rgba(67,67,66,1) 62%, rgba(131,131,131,1) 100%);
+    min-height: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.terminal-font{
+    font-size: small;
+    font-weight: 700;
+    color: white!important;
+}
+
+.terminal-font-green{
+    font-size: small;
+    font-weight: 700;
+    color: greenyellow!important;
+}
+
+.terminal-menu-font{
+    margin-right: 10px;
+}
+
+.navbar{
+    background-color: transparent;
+    border-radius: 20px 20px 0px 0px;
+    padding: 0px;
+}
+
+.background-layer{
+    background-image:url(/src/assets/img/techbg.png);
+    background-size:cover;                   
+    background-repeat:no-repeat;
+    background-position:center center;         
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }

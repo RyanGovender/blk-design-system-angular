@@ -9,7 +9,13 @@ export class NavbarComponent implements OnInit {
 
   constructor() { }
 
+  isCollapsed : boolean = true;
+
   ngOnInit(): void {
+  }
+
+  scrollToDownload($event){
+    
   }
 
 }

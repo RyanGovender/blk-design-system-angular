@@ -3,9 +3,13 @@
     padding: 15px!important;
 }
 
+.card{
+    min-height: 350px;
+}
+
 @media screen and (min-width: 990px) {
-    .card{
-        min-height: 350px;
-    }
+    // .card{
+    //     min-height: 350px;
+    // }
 }
 

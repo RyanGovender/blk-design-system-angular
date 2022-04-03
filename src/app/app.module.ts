@@ -31,6 +31,7 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { AboutMeComponent } from './Components/about-me/about-me.component';
 import { MyExperienceComponent } from './Components/my-experience/my-experience.component';
 import { MyServicesComponent } from './Components/my-services/my-services.component';
+import { TechpillsComponent } from './Components/techpills/techpills.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { MyServicesComponent } from './Components/my-services/my-services.compon
     FooterComponent,
     AboutMeComponent,
     MyExperienceComponent,
-    MyServicesComponent
+    MyServicesComponent,
+    TechpillsComponent
     // IndexComponent,
     // ProfilepageComponent,
     // RegisterpageComponent,

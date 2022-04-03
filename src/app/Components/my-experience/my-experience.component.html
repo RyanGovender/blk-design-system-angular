@@ -35,35 +35,44 @@
             <div class="row">
               <ul class="list-group">
                 <li class="list-group-item">
-                  Overhauled parts of the current system from a monolithic
-                  approach to a microservice approach
+                  Streamlined one of the featured salesforce projects to work
+                  totally generic
                 </li>
                 <li class="list-group-item">
-                  Achieved communication between various microservices using
-                  RabbitMQ.
+                  Undertook the challenge of making a single document
+                  template work in multiple languages without the need for
+                  any code changes
                 </li>
                 <li class="list-group-item">
-                  Released multiple features that are being used by over 4
-                  million unique monthly users.
+                  Succeeded in introducing more asynchronous code principals
+                  to increase performance.
                 </li>
                 <li class="list-group-item">
                   Enhanced system performance by extending the use of
                   asynchronous programming.
                 </li>
-                <li class="list-group-item">
-                  Pioneered the use of Elasticsearch to reduce the loads on the
-                  highly trafficked Databases.
-                </li>
-                <li class="list-group-item">
-                  Slashed debugging times by documenting all code/features I
-                  develop.
-                </li>
               </ul>
             </div>
           </div>
-          <div class="card-footer text-center">
-            <button class="btn btn-primary btn-simple">Get plan</button>
+          <div class="container">
+            <div class="row justify-content-center">
+              <app-techpills
+                  [techArray] = "fontenddec"
+                  type = "frontend"
+                  ></app-techpills>
+                  <app-techpills
+                  [techArray] = "backenddec"
+                  type = "backend"
+                  ></app-techpills>
+                  <app-techpills
+                  [techArray] = "techdec"
+                  type = "tech"
+                  ></app-techpills>
+            </div>
           </div>
+          <!-- <div class="card-footer text-center">
+            <button class="btn btn-primary btn-simple">Get plan</button>
+          </div> -->
         </div>
       </div>
     </div>
@@ -126,9 +135,29 @@
                   </ul>
                 </div>
               </div>
-              <div class="card-footer text-center">
-                <button class="btn btn-info btn-simple">Get plan</button>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <app-techpills
+                  [techArray] = "frontenbet"
+                  type = "frontend"
+                  ></app-techpills>
+                  <app-techpills
+                  [techArray] = "backendbet"
+                  type = "backend"
+                  ></app-techpills>
+                  <app-techpills
+                  [techArray] = "dbbet"
+                  type = "db"
+                  ></app-techpills>
+                  <app-techpills
+                  [techArray] = "techbet"
+                  type = "tech"
+                  ></app-techpills>
+                </div>
               </div>
+              <!-- <div class="card-footer text-center">
+                <button class="btn btn-info btn-simple">Get plan</button>
+              </div> -->
             </div>
           </div>
 
@@ -189,9 +218,26 @@
               </ul>
             </div>
           </div>
-          <div class="card-footer text-center">
-            <button class="btn btn-info btn-simple">Get plan</button>
+         
+        <div class="container">
+          <div class="row justify-content-center">
+            <app-techpills
+            [techArray] = "frontenGrad"
+            type = "frontend"
+            ></app-techpills>
+            <app-techpills
+            [techArray] = "backendGrad"
+            type = "backend"
+            ></app-techpills>
+            <app-techpills
+            [techArray] = "dbGrad"
+            type = "db"
+            ></app-techpills>
           </div>
+        </div>
+          <!-- <div class="card-footer text-center">
+            <button class="btn btn-info btn-simple">Get plan</button>
+          </div> -->
         </div>
       </div>
     </div>
