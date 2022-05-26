@@ -25,6 +25,13 @@ export abstract class ResourceService<T> {
      );
  }
 
+ getListByPath(path: string): Observable<T[]>{
+  return this.httpClient.get<T[]>(`/${this.APIUrl}}/${path}`)
+  .pipe(
+    catchError(this.handleError)
+  );
+ }
+
  get(id: string | number): Observable<T> {
   return this.httpClient.get<T>(`/${this.APIUrl}}/${id}`)
     .pipe(

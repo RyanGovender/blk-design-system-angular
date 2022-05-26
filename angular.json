@@ -38,7 +38,9 @@
               "src/assets/demo/demo.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/three/build/three.min.js",               
+              "node_modules/vanta/dist/vanta.net.min.js"  
             ]
           },
           "configurations": {

@@ -1,6 +1,6 @@
-import { AfterViewInit, Component, OnInit } from "@angular/core";
+import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from "@angular/core";
+import net from 'vanta/dist/vanta.net.min.js'
 declare var anime: any;
-
 @Component({
   selector: "app-about-me",
   templateUrl: "./about-me.component.html",
@@ -9,10 +9,24 @@ declare var anime: any;
 export class AboutMeComponent implements AfterViewInit {
   constructor() {}
 
+  @ViewChild('vanta', { static: true }) vantaEl: ElementRef; 
+  effect : any;
+
   ngAfterViewInit(): void {
     // const textWrapper = document.querySelector('.summary');
     // textWrapper.innerHTML =
     // textWrapper.textContent.replace(/\s/g,"");
+
+    net({
+      el: this.vantaEl.nativeElement,
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00
+    })
 
     anime
       .timeline({ loop: false })
